@@ -140,6 +140,8 @@ public final class Motd {
      * @param website Plugin website
      */
     public static void displayWebsite(Player player, String website) {
-        player.sendMessage(LocaleLoader.getString("MOTD.Website", website));
+        if (Permissions.showebsite(player)) {
+            player.sendMessage(LocaleLoader.getString("MOTD.Website", website));
+        }
     }
 }

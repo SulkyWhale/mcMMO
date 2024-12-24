@@ -2349,3 +2349,6 @@ permissions:
     mcmmo.showversion:
         default: true
         description: Show mcMMO version number in /mcmmo and motd
+    mcmmo.showwebsite:
+      default: true
+      description: Show mcMMO website URL in /mcmmo and motd

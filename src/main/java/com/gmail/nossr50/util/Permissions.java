@@ -33,6 +33,7 @@ public final class Permissions {
     public static boolean updateNotifications(Permissible permissible) {return permissible.hasPermission("mcmmo.tools.updatecheck"); }
     public static boolean chimaeraWing(Permissible permissible) { return permissible.hasPermission("mcmmo.item.chimaerawing"); }
     public static boolean showversion(Permissible permissible) { return permissible.hasPermission("mcmmo.showversion"); }
+    public static boolean showebsite(Permissible permissible) { return permissible.hasPermission("mcmmo.showwebsite"); }
 
     /* BYPASS */
     public static boolean hardcoreBypass(Permissible permissible) { return permissible.hasPermission("mcmmo.bypass.hardcoremode"); }
